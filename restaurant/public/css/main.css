@@ -1,0 +1,13 @@
+/* global */
+@import url('./notification.css');
+
+
+
+
+#imageTitle{
+    background-image: url(../images/restaurant.jpg);
+}
+
+#imageTitle *{
+    text-shadow: 0 0 15px rgb(0,0,0);
+}
