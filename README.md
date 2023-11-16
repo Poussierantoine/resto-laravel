@@ -1,5 +1,5 @@
 
-**Site de restaurant en Laravel - MIASHS IC 2023**
+**Site de restaurant en Laravel - projet MIASHS IC 2023**
 ================================================
 Antoine Poussier
 ----------------
@@ -54,23 +54,21 @@ sur la page d'accueil du site sont presentés 4 restaurants dans un carousel qui
 # Installation
 
 
-Pour installer le projet, vous devez d'abord cloner le depot git dans un dossier de votre choix:
+Pour installer le projet, vous devez d'abord cloner le depot git dans un dossier de votre choix.
 Ensuite, il faut se placer dans le bon repertoire et ouvrir deux terminals: vous pouvez pour cela directement ouvrir les terminals dans le dossier restaurant depuis l'explorateur de fichiers ou taper la commande suivante depuis la source du dossier:
 ```shell
 cd restaurant
 ```
 
-vous devez donc vous trouver dans le repertoire "~/resto-poussier/restaurant"
+vous devez donc vous trouver dans le repertoire "~/resto-laravel/restaurant"
 
-Copiez le contenu du fichier .env.example dans un fichier .env à la racine du projet laravel (restaurant/.env)
+Il faut egallement creer un fichier .env a la racine du projet (.../restaurant/.env) et y copier le contenu du fichier .env.example. Ensuite, vous devez modifier les parametres de connexion a la base de donnée (DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD) pour qu'ils correspondent a votre configuration locale.
 
 il faut ensuite lancer les commandes suivantes pour installer les librairies necessaires:
 ```shell
 composer install
 npm install
 ```
-
-Il faut egallement creer un fichier .env a la racine du projet (.../restaurant/.env) et y copier le contenu du fichier .env.example. Ensuite, vous devez modifier les parametres de connexion a la base de donnée (DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD) pour qu'ils correspondent a votre configuration locale.
 
 Ensuite, vous devez creer la base de donnée et lancer les migrations et les seeders avec la commande suivante:
 ```shell

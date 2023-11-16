@@ -18,7 +18,7 @@
                     <div class="item-image">
                         <img src="{{ Storage::url($restaurant->image) }}" alt="{{ $restaurant->name }} - image">
                     </div>
-                    <div class="item-text absolute bottom-0 w-3/4 p-1.5 text-slate-100 text-base cursor-pointer rounded" onclick="location.href = '/restaurants/{{ $restaurant->url }}';">
+                    <div class="item-text absolute bottom-0 w-3/4 p-1.5 text-slate-100 text-base cursor-pointer rounded" onclick="location.href = '/restaurants/show/{{ $restaurant->url }}';">
                         <p class="item-title">{{ $restaurant->name }}</p>
                         <p class="item-description">{{ substr($restaurant->description, 0, 100) }}...</p>
                     </div>

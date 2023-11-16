@@ -41,7 +41,7 @@ class RestaurantFactory extends Factory
             'url' => str_replace([',', ' '], ['', '-'], $title),
             'price' => random_int(1, 50) . '-' . random_int(51, 100) . ' €',
             'status' => $this->status[random_int(0, count($this->status) - 1)],
-            'image' => "public/images/restaurants/restaurantPlaceholder/resto" . random_int(1, 8) . ".jpg",
+            'image' => "images/restaurants/restaurantPlaceholder/resto" . random_int(1, 8) . ".jpg",
             'active' => random_int(0, 1),
         ];
     }

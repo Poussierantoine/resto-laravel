@@ -23,7 +23,7 @@ class RestaurantSeeder extends Seeder
             'url' => 'le-petit-bouchon',
             'price' => '50-2000 €',
             'status' => 'Ouvert',
-            'image' => 'public/images/restaurants/restaurantPlaceholder/resto1.jpg',
+            'image' => 'images/restaurants/restaurantPlaceholder/resto1.jpg',
             'active' => true,
         ]);
 
@@ -34,7 +34,7 @@ class RestaurantSeeder extends Seeder
             'url' => 'le-resto2',
             'price' => '50-2000 €',
             'status' => 'Ouvert',
-            'image' => 'public/images/restaurants/restaurantPlaceholder/resto2.jpg',
+            'image' => 'images/restaurants/restaurantPlaceholder/resto2.jpg',
             'active' => false,
         ]);
 
